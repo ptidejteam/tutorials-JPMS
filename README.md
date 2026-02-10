@@ -1,2 +1,3 @@
 # tutorials-JPMS
-Hackthon on the Java Platform Module System
+
+Tutorial and hackathon on the Java Platform Module System. The different branches are the different steps of the hackathon.
