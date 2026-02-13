@@ -3,6 +3,8 @@ package net.ptidej.jpms.module1.api1;
 import org.apache.commons.collections4.Bag;
 import org.apache.commons.collections4.bag.HashBag;
 
+import net.ptidej.jpms.lib.API;
+
 /**
  * Nothing to change here
  */
@@ -22,6 +24,8 @@ public class Module1API1 {
 
 		System.out.println(bag);
 		System.out.println();
+
+		System.err.println(new API().bar());
 	}
 
 	protected void method2() {

@@ -11,6 +11,7 @@ import org.apache.commons.collections4.bag.HashBag;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import net.ptidej.jpms.lib.API;
 import net.ptidej.jpms.module1.api1.Module1API1;
 import net.ptidej.jpms.module2.api2.Module2API2;
 
@@ -48,7 +49,8 @@ public class Main {
 
 		System.out.println(bag);
 
-		// See https://stackoverflow.com/questions/11020893/remove-non-ascii-non-printable-characters-from-a-string
+		// See
+		// https://stackoverflow.com/questions/11020893/remove-non-ascii-non-printable-characters-from-a-string
 		// to understand the role of replaceAll("\\p{C}", "")
 		Assertions.assertEquals(os.toString().replaceAll("\\p{C}", ""), """
 				Module1.net.ptidej.jpms.module1.api1.Module1API1
@@ -63,6 +65,8 @@ public class Main {
 				Module3.net.ptidej.jpms.module3.Main
 				[1:Rick Deckard,1:Rachael,1:Roy Batty]
 				""".replaceAll("\\p{C}", ""));
+
+		System.err.println(new API().bar());
 	}
 
 }
