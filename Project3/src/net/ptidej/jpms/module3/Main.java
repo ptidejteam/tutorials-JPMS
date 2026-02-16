@@ -68,6 +68,9 @@ public class Main {
 				Module3.net.ptidej.jpms.module3.Main
 				[1:Rick Deckard,1:Rachael,1:Roy Batty]
 				""".replaceAll("\\p{C}", ""));
+		
+		System.err.println(os.toString());
+		System.err.println("Done!");
 	}
 
 }

@@ -1,6 +1,3 @@
-/**
- * To be completed
- */
 module Module1 {
 	requires transitive org.apache.commons.collections4;
 

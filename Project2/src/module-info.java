@@ -1,6 +1,3 @@
-/**
- * To be completed
- */
 module Module2 {
 	requires transitive Module1;
 
