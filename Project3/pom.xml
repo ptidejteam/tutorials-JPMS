@@ -11,7 +11,6 @@
 	</properties>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
-		<testSourceDirectory>src/</testSourceDirectory>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
