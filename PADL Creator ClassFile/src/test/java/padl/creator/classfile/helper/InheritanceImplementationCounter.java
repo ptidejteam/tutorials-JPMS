@@ -32,6 +32,7 @@ import padl.kernel.IMethod;
 import padl.kernel.IMethodInvocation;
 import padl.kernel.IPackage;
 import padl.kernel.IPackageDefault;
+import padl.kernel.IPackageGhost;
 import padl.kernel.IParameter;
 import padl.kernel.IPrimitiveEntity;
 import padl.kernel.ISetter;
@@ -191,5 +192,17 @@ public class InheritanceImplementationCounter implements IWalker {
 	}
 
 	public void visit(final IUseRelationship aUse) {
+	}
+
+	@Override
+	public void close(IPackageGhost aPackageGhost) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void open(IPackageGhost aPackageGhost) {
+		// TODO Auto-generated method stub
+		
 	}
 }
