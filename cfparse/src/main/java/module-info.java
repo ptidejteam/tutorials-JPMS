@@ -1,4 +1,4 @@
-module cfparse {
+module com.ibm.toad.cfparse {
 	exports com.ibm.toad.cfparse;
 	exports com.ibm.toad.cfparse.attributes;
 	exports com.ibm.toad.cfparse.instruction;

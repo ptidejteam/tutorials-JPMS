@@ -8,7 +8,7 @@
 		<artifactId>cfparse</artifactId>
 		<version>2.0</version>
 
-	<name>CFPARSE2</name>
+	<name>CFParse</name>
 
 	<build>
 		<plugins>
@@ -17,8 +17,9 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.13.0</version>
 				<configuration>
+					<release>24</release>
 					<compilerArgs>
-						<arg>-proc:none</arg>
+					<arg>-proc:none</arg>
 					</compilerArgs>
 				</configuration>
 			</plugin>
