@@ -4,7 +4,7 @@ module CPL {
 	requires org.apache.logging.log4j;
 	requires org.apache.commons.io;
 	requires org.apache.bcel;
-	requires cfparse;
+	requires com.ibm.toad.cfparse;	
 	
 	exports util.awt;
 	exports util.help;
