@@ -22,7 +22,6 @@ public class MutableCodeSegment implements TagFactory {
    private Vector d_instructions;
    int d_numExceptions;
    CodeAttrInfo.ExceptionInfo[] d_exceptions;
-   CodeAttrInfo codeAttrInfo;
    ConstantPool d_cp;
    private InstructionFactory d_if;
    
@@ -67,30 +66,30 @@ public class MutableCodeSegment implements TagFactory {
       this.d_instructions = new Vector();
    }
 
-  /* public MutableCodeSegment(ConstantPool var1, byte[] var2, CodeAttrInfo.ExceptionInfo[] var3, int var4) {
+   public MutableCodeSegment(ConstantPool var1, byte[] var2, CodeAttrInfo.ExceptionInfo[] var3, int var4) {
       this(var1);
       this.d_if = new ByteInstructionFactory();
       this.init(var2, var3, var4);
    }
-  */
+  
    
    public MutableCodeSegment(ConstantPool var1, CodeAttrInfo var2, boolean var3) {
       this(var1);
       this.d_if = new ByteInstructionFactory();
-      this.init(var2, var2.getCode(), var2.getExceptions(), var2.getNumExceptions());
+      this.init(var2.getCode(), var2.getExceptions(), var2.getNumExceptions());
       if (var3) {
          this.addLines(var2);
       }
 
    }
 
-   /*
+   
    public MutableCodeSegment(ConstantPool var1, byte[] var2, CodeAttrInfo.ExceptionInfo[] var3, int var4, InstructionFactory var5) {
       this(var1);
       this.d_if = var5;
       this.init(var2, var3, var4);
    }
-   */
+   
    
    public String getTag(int var1) {
       return (String)this.d_tagNum2tagStr.get(new Integer(var1));
@@ -99,7 +98,7 @@ public class MutableCodeSegment implements TagFactory {
    public MutableCodeSegment(ConstantPool var1, CodeAttrInfo var2, boolean var3, InstructionFactory var4) {
       this(var1);
       this.d_if = var4;
-      this.init(var2, var2.getCode(), var2.getExceptions(), var2.getNumExceptions());
+      this.init(var2.getCode(), var2.getExceptions(), var2.getNumExceptions());
       if (var3) {
          this.addLines(var2);
       }
@@ -325,7 +324,7 @@ public class MutableCodeSegment implements TagFactory {
       return var2;
    }
 
-   /*
+   
    public static CodeViewer getViewer() {
       return new CodeViewer() {
          InstructionFactory d_if;
@@ -370,7 +369,7 @@ public class MutableCodeSegment implements TagFactory {
          }
       };
    }
-*/
+
    private void resize() {
       CodeAttrInfo.ExceptionInfo[] var1 = new CodeAttrInfo.ExceptionInfo[this.d_numExceptions + 10];
       if (this.d_exceptions != null) {
@@ -441,16 +440,15 @@ public class MutableCodeSegment implements TagFactory {
       int var5 = this.tagFor(var1, true);
       int var6 = this.tagFor(var2, true);
       int var7 = this.tagFor(var3, true);
-      this.d_exceptions[this.d_numExceptions] = codeAttrInfo.new ExceptionInfo(this.d_cp, var5, var6, var7, var4);
+      this.d_exceptions[this.d_numExceptions] = new CodeAttrInfo.ExceptionInfo(this.d_cp, var5, var6, var7, var4);
       ++this.d_numExceptions;
    }
 
-   private void init(CodeAttrInfo codeAttrInfo, byte[] var1, CodeAttrInfo.ExceptionInfo[] var2, int var3) {
+   private void init(byte[] var1, CodeAttrInfo.ExceptionInfo[] var2, int var3) {
       if (var1 != null) {
          this.readCode(var1);
       }
       
-      this.codeAttrInfo = codeAttrInfo;
       this.makeExcTable(var2, var3);
       this.fixTags();
    }
@@ -530,7 +528,7 @@ public class MutableCodeSegment implements TagFactory {
          int var5 = this.d_exceptions[var9].getStart();
          int var6 = this.d_exceptions[var9].getEnd();
          int var7 = this.d_exceptions[var9].getHandler();
-         var8[var9] = codeAttrInfo.new ExceptionInfo(this.d_cp, var1[var5], var1[var6], var1[var7], this.d_exceptions[var9].getCatch());
+         var8[var9] = new CodeAttrInfo.ExceptionInfo(this.d_cp, var1[var5], var1[var6], var1[var7], this.d_exceptions[var9].getCatch());
       }
 
       return var8;
@@ -544,7 +542,7 @@ public class MutableCodeSegment implements TagFactory {
          int var4 = var1[var3].getStart();
          int var5 = var1[var3].getEnd();
          int var6 = var1[var3].getHandler();
-         this.d_exceptions[var3] = codeAttrInfo.new ExceptionInfo(this.d_cp, this.addTag(var4), this.addTag(var5), this.addTag(var6), var1[var3].getCatch());
+         this.d_exceptions[var3] = new CodeAttrInfo.ExceptionInfo(this.d_cp, this.addTag(var4), this.addTag(var5), this.addTag(var6), var1[var3].getCatch());
       }
 
    }

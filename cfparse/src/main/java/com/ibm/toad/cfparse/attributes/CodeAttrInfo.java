@@ -298,7 +298,7 @@ public final class CodeAttrInfo extends AttrInfo {
       return var1 >= 0 && var1 <= this.d_numExceptions ? this.d_exceptions[var1] : null;
    }
 
-   public class ExceptionInfo {
+   public static class ExceptionInfo {
       private ConstantPool d_cp;
       private int d_startPC;
       private int d_endPC;
