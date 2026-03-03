@@ -1,15 +1,15 @@
 package com.ibm.toad.cfparse.instruction;
 
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map.Entry;
+import java.util.Vector;
+
 import com.ibm.toad.cfparse.ConstantPool;
 import com.ibm.toad.cfparse.attributes.AttrInfoList;
 import com.ibm.toad.cfparse.attributes.CodeAttrInfo;
 import com.ibm.toad.cfparse.attributes.LineNumberAttrInfo;
 import com.ibm.toad.cfparse.utils.ByteArray;
-import com.ibm.toad.utils.D;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Vector;
-import java.util.Map.Entry;
 
 public class MutableCodeSegment implements TagFactory {
    private static final String baseTag = "TAG_";

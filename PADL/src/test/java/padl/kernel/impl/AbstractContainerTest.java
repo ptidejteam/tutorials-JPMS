@@ -13,13 +13,16 @@ package padl.kernel.impl;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.Iterator;
+
 import org.junit.Assert;
+
+import com.ibm.toad.cfparse.utils.Access;
+
 import junit.framework.TestCase;
 import padl.kernel.IConstituent;
 import padl.kernel.IMethodInvocation;
 import padl.kernel.exception.ModelDeclarationException;
 import padl.test.helper.Reflector;
-import com.ibm.toad.cfparse.utils.Access;
 
 /**
  * Basic unit test for padl.kernel.impl.AbstractContainer abstract base class.

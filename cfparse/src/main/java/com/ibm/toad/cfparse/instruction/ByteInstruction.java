@@ -1,8 +1,9 @@
 package com.ibm.toad.cfparse.instruction;
 
+import java.util.BitSet;
+
 import com.ibm.toad.cfparse.ConstantPool;
 import com.ibm.toad.cfparse.utils.ByteArray;
-import java.util.BitSet;
 
 final class ByteInstruction implements BaseInstruction {
    private int d_opCode;

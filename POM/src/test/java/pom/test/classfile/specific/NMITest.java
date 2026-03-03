@@ -11,6 +11,7 @@
 package pom.test.classfile.specific;
 
 import org.junit.Assert;
+
 import junit.framework.TestCase;
 import padl.creator.classfile.CompleteClassFileCreator;
 import padl.kernel.ICodeLevelModel;

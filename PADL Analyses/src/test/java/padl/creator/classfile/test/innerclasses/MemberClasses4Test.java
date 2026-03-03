@@ -11,6 +11,7 @@
 package padl.creator.classfile.test.innerclasses;
 
 import org.junit.Assert;
+
 import padl.creator.classfile.test.ClassFilePrimitive;
 import padl.creator.classfile.util.Utils;
 import padl.kernel.Constants;

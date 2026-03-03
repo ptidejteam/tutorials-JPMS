@@ -14,13 +14,12 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
+
 import padl.kernel.IConstituentOfOperation;
 import padl.kernel.IField;
 import padl.kernel.IFirstClassEntity;
 import padl.kernel.IMethodInvocation;
 import padl.kernel.IOperation;
-import pom.util.CacheManager;
-import pom.util.NoSuchValueInCacheException;
 
 /**
  * @author Farouk Zaidi

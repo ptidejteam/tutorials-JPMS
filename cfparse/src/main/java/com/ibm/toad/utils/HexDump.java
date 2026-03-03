@@ -10,10 +10,10 @@ public class HexDump {
          byte[] var2 = new byte[var1.available()];
          var1.read(var2);
          System.out.println(toBytes(var2));
+         var1.close();
       } catch (Exception var3) {
          System.out.println("Could not open " + var0[0]);
       }
-
    }
 
    private static char AlNum(int var0) {

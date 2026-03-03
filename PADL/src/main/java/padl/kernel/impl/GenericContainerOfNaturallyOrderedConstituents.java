@@ -13,6 +13,7 @@ package padl.kernel.impl;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Iterator;
+
 import padl.kernel.IConstituent;
 import padl.kernel.INavigable;
 import padl.util.CharArrayComparator;

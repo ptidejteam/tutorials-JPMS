@@ -12,6 +12,7 @@ package padl.kernel;
 
 import java.io.Serializable;
 import java.util.Iterator;
+
 import padl.visitor.IGenerator;
 import padl.visitor.IWalker;
 

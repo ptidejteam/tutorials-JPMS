@@ -11,10 +11,12 @@
 package padl.kernel.impl;
 
 import java.util.HashSet;
+
+import com.ibm.toad.cfparse.utils.Access;
+
 import junit.framework.TestCase;
 import padl.kernel.IFirstClassEntity;
 import padl.kernel.IMethodInvocation;
-import com.ibm.toad.cfparse.utils.Access;
 
 /**
  * Tests contract for a MethodInvocation.

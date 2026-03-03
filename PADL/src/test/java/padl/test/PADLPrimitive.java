@@ -11,6 +11,7 @@
 package padl.test;
 
 import org.junit.Assert;
+
 import junit.framework.TestCase;
 import padl.kernel.IFactory;
 import padl.kernel.impl.Factory;

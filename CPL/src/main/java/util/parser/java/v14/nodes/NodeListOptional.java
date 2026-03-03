@@ -14,7 +14,8 @@
 
 package util.parser.java.v14.nodes;
 
-import java.util.*;
+import java.util.Enumeration;
+import java.util.Vector;
 
 /**
  * Represents an optional grammar list, e.g. ( A )*

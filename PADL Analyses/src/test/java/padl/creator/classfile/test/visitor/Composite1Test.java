@@ -11,7 +11,6 @@
 package padl.creator.classfile.test.visitor;
 
 import java.io.FileNotFoundException;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.LineNumberReader;
 import java.util.StringTokenizer;
@@ -30,7 +29,7 @@ import padl.visitor.IGenerator;
 import util.io.ProxyDisk;
 
 public class Composite1Test extends ClassFilePrimitive {
-	private static final String EXPECTED_FILE_PATH_SRC = "../PADL Analyses/src/test/resources/padl/creator/classfile/test/visitor/Composite1.expected.txt";
+	// private static final String EXPECTED_FILE_PATH_SRC = "../PADL Analyses/src/test/resources/padl/creator/classfile/test/visitor/Composite1.expected.txt";
 	private static final String EXPECTED_FILE_PATH_TST = "../PADL Analyses/target/test-classes/padl/creator/classfile/test/visitor/Composite1.expected.txt";
 
 	private static IAbstractLevelModel AbstractLevelModel;

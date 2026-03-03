@@ -11,12 +11,14 @@
 package padl.kernel.cpp.antlr.impl;
 
 import java.util.Iterator;
+
+import com.ibm.toad.cfparse.utils.Access;
+
 import padl.kernel.IElement;
 import padl.kernel.IEntityMarker;
 import padl.kernel.IFirstClassEntity;
 import padl.kernel.cpp.antlr.IUnion;
 import padl.kernel.impl.FirstClassEntity;
-import com.ibm.toad.cfparse.utils.Access;
 
 /**
  * @author Sebastien Robidoux 

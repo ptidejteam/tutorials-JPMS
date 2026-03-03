@@ -1,14 +1,14 @@
 package com.ibm.toad.cfparse.utils;
 
+import java.util.Stack;
+import java.util.Vector;
+
 import com.ibm.toad.cfparse.ConstantPool;
 import com.ibm.toad.cfparse.attributes.CodeAttrInfo;
 import com.ibm.toad.cfparse.instruction.BaseInstruction;
 import com.ibm.toad.cfparse.instruction.ImmutableCodeSegment;
 import com.ibm.toad.cfparse.instruction.JVMInstruction;
 import com.ibm.toad.cfparse.instruction.MutableCodeSegment;
-import com.ibm.toad.utils.D;
-import java.util.Stack;
-import java.util.Vector;
 
 public class InstrUtils {
    private static final boolean debug = false;

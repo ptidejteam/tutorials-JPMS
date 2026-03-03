@@ -21,6 +21,7 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.13.0</version>
 				<configuration>
+					<release>25</release>
 					<compilerArgs>
 						<arg>-proc:none</arg>
 					</compilerArgs>
@@ -40,6 +41,7 @@
 				</configuration>
 			</plugin>
 			<!-- To install cfparse.jar and make it available -->
+			<!--
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-install-plugin</artifactId>
@@ -62,6 +64,7 @@
 					</execution>
 				</executions>
 			</plugin>
+			-->
 		</plugins>
 	</build>
 
@@ -103,7 +106,16 @@
 			<version>6.11.0</version>
 		</dependency>
 
+		<!-- Must add this dependency in the compiler scope because of the
+		module-info.java -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13.2</version>
+		</dependency>
+
 		<!-- Test dependencies -->
+		<!--
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>

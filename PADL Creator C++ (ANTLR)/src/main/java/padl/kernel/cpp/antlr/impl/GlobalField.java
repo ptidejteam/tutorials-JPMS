@@ -11,6 +11,9 @@
 package padl.kernel.cpp.antlr.impl;
 
 import java.util.List;
+
+import com.ibm.toad.cfparse.utils.Access;
+
 import padl.kernel.Constants;
 import padl.kernel.IElement;
 import padl.kernel.IElementMarker;
@@ -22,7 +25,6 @@ import padl.kernel.impl.FirstClassEntity;
 import padl.util.Util;
 import util.io.ProxyConsole;
 import util.multilingual.MultilingualManager;
-import com.ibm.toad.cfparse.utils.Access;
 
 /**
  * @author Ward Flores

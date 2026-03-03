@@ -13,8 +13,9 @@
 //
 
 package util.parser.java.v15.visitors;
+import java.util.Enumeration;
+
 import util.parser.java.v15.nodes.*;
-import java.util.*;
 
 /**
  * Provides default methods which visit each node in the tree in depth-first

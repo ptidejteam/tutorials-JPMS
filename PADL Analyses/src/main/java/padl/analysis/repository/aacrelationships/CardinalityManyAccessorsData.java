@@ -10,10 +10,11 @@
  ******************************************************************************/
 package padl.analysis.repository.aacrelationships;
 
+import com.ibm.toad.cfparse.utils.Access;
+
 import padl.kernel.Constants;
 import padl.kernel.IAbstractModel;
 import padl.kernel.IField;
-import com.ibm.toad.cfparse.utils.Access;
 
 /**
  * @author Yann-Gaël Guéhéneuc

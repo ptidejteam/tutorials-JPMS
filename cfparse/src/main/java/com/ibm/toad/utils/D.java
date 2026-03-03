@@ -90,7 +90,9 @@ public final class D {
    }
 
    public class AssertionException extends RuntimeException {
-      public AssertionException() {
+      private static final long serialVersionUID = 2271477030077046082L;
+
+	  public AssertionException() {
       }
 
       public AssertionException(String var1) {
@@ -99,7 +101,9 @@ public final class D {
    }
 
    public static class PostconditionException extends RuntimeException {
-      public PostconditionException() {
+      private static final long serialVersionUID = 5557734865327289480L;
+
+	  public PostconditionException() {
       }
 
       public PostconditionException(String var1) {
@@ -108,7 +112,9 @@ public final class D {
    }
 
    public static class PreconditionException extends RuntimeException {
-      public PreconditionException() {
+      private static final long serialVersionUID = 5477599101349730946L;
+
+	  public PreconditionException() {
       }
 
       public PreconditionException(String var1) {

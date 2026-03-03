@@ -10,6 +10,8 @@
  ******************************************************************************/
 package padl.kernel.impl;
 
+import com.ibm.toad.cfparse.utils.Access;
+
 import padl.kernel.Constants;
 import padl.kernel.IElementMarker;
 import padl.kernel.IField;
@@ -17,7 +19,6 @@ import padl.kernel.exception.ModelDeclarationException;
 import padl.util.Util;
 import util.io.ProxyConsole;
 import util.multilingual.MultilingualManager;
-import com.ibm.toad.cfparse.utils.Access;
 
 // Sebastien Colladon 21/04/2012 : Change the visibility to public in order to allow other project to extend from this class in the particular case of eclipse bundle loader (avoid IllegalAccessError).
 public class Field extends Element implements IElementMarker, IField {

@@ -11,6 +11,7 @@
 package padl.creator.classfile.test.method;
 
 import org.junit.Assert;
+
 import junit.framework.TestCase;
 import padl.analysis.repository.AACRelationshipsAnalysis;
 import padl.creator.classfile.CompleteClassFileCreator;

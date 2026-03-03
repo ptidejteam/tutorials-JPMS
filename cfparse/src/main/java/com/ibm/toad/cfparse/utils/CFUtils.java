@@ -1,8 +1,5 @@
 package com.ibm.toad.cfparse.utils;
 
-import com.ibm.toad.cfparse.ClassFile;
-import com.ibm.toad.cfparse.ConstantPool;
-import com.ibm.toad.cfparse.MethodInfoList;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FilenameFilter;
@@ -14,6 +11,10 @@ import java.util.StringTokenizer;
 import java.util.Vector;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
+
+import com.ibm.toad.cfparse.ClassFile;
+import com.ibm.toad.cfparse.ConstantPool;
+import com.ibm.toad.cfparse.MethodInfoList;
 
 public final class CFUtils {
    public static final int BYTES = 1;
@@ -55,6 +56,8 @@ public final class CFUtils {
                var3.addElement(var7);
             }
          }
+         
+         var4.close();
       } catch (Exception var8) {
          return null;
       }
@@ -188,6 +191,8 @@ public final class CFUtils {
                      }
                   }
 
+                  var15.close();
+                  
                   return var9;
                } catch (Exception var12) {
                   return null;
@@ -219,6 +224,7 @@ public final class CFUtils {
          ZipEntry var5;
          if ((var5 = var4.getEntry(var3)) != null) {
             InputStream var6 = var4.getInputStream(var5);
+            var4.close();
             if (var2 == 3) {
                ClassFile var11 = new ClassFile(var6);
                return var11;
@@ -242,9 +248,10 @@ public final class CFUtils {
                   break;
                }
             }
-
+            
             return var7;
          }
+         var4.close();
       } catch (Exception var10) {
       }
 

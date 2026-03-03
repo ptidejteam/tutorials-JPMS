@@ -31,7 +31,9 @@
 package padl.test.defaultpackage;
 
 import java.util.Arrays;
+
 import org.junit.Assert;
+
 import junit.framework.TestCase;
 import padl.kernel.Constants;
 import padl.kernel.IAbstractModel;

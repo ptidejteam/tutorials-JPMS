@@ -13,6 +13,11 @@ package padl.creator.classfile.relationship;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import com.ibm.toad.cfparse.instruction.JVMConstants;
+import com.ibm.toad.cfparse.utils.Access;
+import com.ibm.toad.cfparse.utils.ByteArray;
+
 import padl.creator.classfile.util.ExtendedMethodInfo;
 import padl.creator.classfile.util.ExtendedMethodInvocation;
 import padl.creator.classfile.util.Utils;
@@ -23,9 +28,6 @@ import padl.kernel.IFirstClassEntity;
 import padl.kernel.IMethod;
 import padl.kernel.IMethodInvocation;
 import padl.util.Util;
-import com.ibm.toad.cfparse.instruction.JVMConstants;
-import com.ibm.toad.cfparse.utils.Access;
-import com.ibm.toad.cfparse.utils.ByteArray;
 
 /**
  * @version 0.1

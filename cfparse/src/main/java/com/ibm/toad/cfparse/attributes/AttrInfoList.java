@@ -23,6 +23,7 @@ public final class AttrInfoList {
 	}
 
 	//	Reorder by priority Henrique 4/22/2025
+	/*
 	private void reorderByPriority(String[] priority) {
 		if (d_attrs == null || d_numAttrs == 0)
 			return;
@@ -48,6 +49,7 @@ public final class AttrInfoList {
 
 		this.d_attrs = reordered;
 	}
+	*/
 
 	public AttrInfo add(String name) {
 		if (d_attrs == null || d_numAttrs == d_attrs.length) {

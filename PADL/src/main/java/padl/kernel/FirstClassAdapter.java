@@ -1,9 +1,9 @@
 package padl.kernel;
 
 import java.util.Iterator;
+
 import padl.event.IEvent;
 import padl.event.IModelListener;
-import padl.kernel.*;
 import padl.visitor.IVisitor;
 
 public abstract class FirstClassAdapter implements IFirstClassEntity {

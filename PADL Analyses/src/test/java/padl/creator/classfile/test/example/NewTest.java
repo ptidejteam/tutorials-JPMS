@@ -12,14 +12,17 @@ package padl.creator.classfile.test.example;
 
 import java.util.Iterator;
 import java.util.List;
+
 import org.junit.Assert;
-import junit.framework.TestCase;
-import padl.creator.classfile.relationship.DeepMethodInvocationAnalyzer;
-import padl.creator.classfile.util.ExtendedMethodInfo;
+
 import com.ibm.toad.cfparse.ClassFile;
 import com.ibm.toad.cfparse.MethodInfo;
 import com.ibm.toad.cfparse.MethodInfoList;
 import com.ibm.toad.cfparse.utils.CFUtils;
+
+import junit.framework.TestCase;
+import padl.creator.classfile.relationship.DeepMethodInvocationAnalyzer;
+import padl.creator.classfile.util.ExtendedMethodInfo;
 
 /**
  * @author Farouk Zaidi

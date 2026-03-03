@@ -13,18 +13,15 @@ package pom.test.cppfile.general;
 import org.junit.Assert;
 
 import junit.framework.TestCase;
-import padl.kernel.IFirstClassEntity;
-import padl.kernel.IIdiomLevelModel;
-import pom.metrics.MetricsRepository;
 
 /**
  * @author Yann
  * @since  2014/04/19
  */
 public class QMOODMetricsTest extends TestCase {
-	private static IFirstClassEntity Entity;
-	private static IIdiomLevelModel IdiomLevelModel;
-	private static MetricsRepository Repository;
+	// private static IFirstClassEntity Entity;
+	// private static IIdiomLevelModel IdiomLevelModel;
+	// private static MetricsRepository Repository;
 
 	public QMOODMetricsTest(final String aName) {
 		super(aName);

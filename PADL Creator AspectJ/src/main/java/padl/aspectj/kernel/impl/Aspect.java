@@ -11,6 +11,7 @@
 package padl.aspectj.kernel.impl;
 
 import java.util.Iterator;
+
 import padl.aspectj.kernel.IAspect;
 import padl.aspectj.kernel.IAspectElement;
 import padl.kernel.IConstituentOfEntity;

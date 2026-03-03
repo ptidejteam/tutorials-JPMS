@@ -1,9 +1,5 @@
 package com.ibm.toad.cfparse.instruction;
 
-import com.ibm.toad.cfparse.ConstantPool;
-import com.ibm.toad.cfparse.utils.ByteArray;
-import com.ibm.toad.cfparse.utils.CPUtils;
-import com.ibm.toad.utils.D;
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -11,6 +7,10 @@ import java.util.Arrays;
 import java.util.BitSet;
 import java.util.Comparator;
 import java.util.StringTokenizer;
+
+import com.ibm.toad.cfparse.ConstantPool;
+import com.ibm.toad.cfparse.utils.ByteArray;
+import com.ibm.toad.cfparse.utils.CPUtils;
 
 public final class Instruction extends JVMInstruction implements BaseInstruction {
    private byte[] d_code;

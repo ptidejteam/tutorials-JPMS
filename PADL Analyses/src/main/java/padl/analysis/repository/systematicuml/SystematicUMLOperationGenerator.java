@@ -12,6 +12,7 @@ package padl.analysis.repository.systematicuml;
 
 import java.util.Arrays;
 import java.util.Iterator;
+
 import padl.analysis.repository.SystematicUMLAnalysis;
 import padl.kernel.IAbstractModel;
 import padl.kernel.IAggregation;

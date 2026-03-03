@@ -14,7 +14,8 @@
 
 package util.parser.java.v14.nodes;
 
-import java.util.*;
+import java.util.Enumeration;
+import java.util.Vector;
 
 /**
  * Represents a sequence of nodes nested within a choice, list,

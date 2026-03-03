@@ -12,7 +12,9 @@ package padl.path;
 
 import java.util.Arrays;
 import java.util.StringTokenizer;
+
 import org.apache.commons.lang3.ArrayUtils;
+
 import padl.kernel.IAbstractModel;
 import padl.kernel.IConstituent;
 import padl.kernel.IContainer;

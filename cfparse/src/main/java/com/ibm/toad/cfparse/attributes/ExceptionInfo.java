@@ -1,6 +1,8 @@
 package com.ibm.toad.cfparse.attributes;
 
-import java.io.*;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
 
 public class ExceptionInfo {
     private int startPC;

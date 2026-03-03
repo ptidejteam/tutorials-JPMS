@@ -1,10 +1,10 @@
 package com.ibm.toad.cfparse.attributes;
 
-import com.ibm.toad.cfparse.ConstantPool;
-import com.ibm.toad.utils.D;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
+
+import com.ibm.toad.cfparse.ConstantPool;
 
 public final class SyntheticAttrInfo extends AttrInfo {
    public String toString() {

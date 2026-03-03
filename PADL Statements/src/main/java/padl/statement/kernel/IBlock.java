@@ -11,6 +11,7 @@
 package padl.statement.kernel;
 
 import java.util.Iterator;
+
 import padl.kernel.IStatement;
 
 /**

@@ -11,6 +11,7 @@
 package padl.analysis.repository.systematicuml;
 
 import java.util.Iterator;
+
 import padl.kernel.IAbstractModel;
 import padl.kernel.IAggregation;
 import padl.kernel.IAssociation;

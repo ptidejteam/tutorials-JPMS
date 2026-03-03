@@ -11,6 +11,7 @@
 package padl.analysis.packagebuilder.test;
 
 import org.junit.Assert;
+
 import junit.framework.TestCase;
 import padl.analysis.UnsupportedSourceModelException;
 import padl.analysis.repository.PackageIdentifierAnalysis;
@@ -34,6 +35,7 @@ public class SanityTest extends TestCase {
 	public SanityTest(final String testName) {
 		super(testName);
 	}
+	@SuppressWarnings("deprecation")
 	protected void setUp() {
 		if (SanityTest.ResultingAbstractModel == null) {
 			SanityTest.OriginalCodeLevelModel =

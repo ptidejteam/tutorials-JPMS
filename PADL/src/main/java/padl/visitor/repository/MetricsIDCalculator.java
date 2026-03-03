@@ -12,6 +12,7 @@ package padl.visitor.repository;
 
 import java.util.Iterator;
 import java.util.Vector;
+
 import padl.kernel.IAbstractModel;
 import padl.kernel.IAggregation;
 import padl.kernel.IAssociation;

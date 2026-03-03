@@ -13,11 +13,13 @@ package padl.kernel.cpp.antlr.impl;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+
+import com.ibm.toad.cfparse.utils.Access;
+
 import padl.kernel.IEntityMarker;
 import padl.kernel.IFirstClassEntity;
 import padl.kernel.cpp.antlr.IEnum;
 import padl.kernel.impl.FirstClassEntity;
-import com.ibm.toad.cfparse.utils.Access;
 
 /**
  * @author Sebastien Robidoux 

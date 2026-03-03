@@ -13,14 +13,16 @@ package padl.creator.classfile.relationship;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
-import padl.creator.classfile.util.ExtendedMethodInfo;
-import util.io.ProxyConsole;
+
 import com.ibm.toad.cfparse.ConstantPool;
 import com.ibm.toad.cfparse.attributes.AttrInfoList;
 import com.ibm.toad.cfparse.attributes.CodeAttrInfo;
 import com.ibm.toad.cfparse.instruction.ImmutableCodeSegment;
 import com.ibm.toad.cfparse.instruction.JVMConstants;
 import com.ibm.toad.cfparse.utils.ByteArray;
+
+import padl.creator.classfile.util.ExtendedMethodInfo;
+import util.io.ProxyConsole;
 
 public class DeepMethodInvocationAnalyzer {
 	private static DeepMethodInvocationAnalyzer UniqueInstance;

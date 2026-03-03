@@ -10,6 +10,8 @@
  ******************************************************************************/
 package padl.kernel.impl;
 
+import com.ibm.toad.cfparse.utils.Access;
+
 import padl.kernel.Constants;
 import padl.kernel.IAssociation;
 import padl.kernel.IDelegatingMethod;
@@ -19,7 +21,6 @@ import padl.kernel.exception.ModelDeclarationException;
 import padl.util.Util;
 import util.io.ProxyConsole;
 import util.multilingual.MultilingualManager;
-import com.ibm.toad.cfparse.utils.Access;
 
 class DelegatingMethod extends Method implements IElementMarker,
 		IDelegatingMethod {

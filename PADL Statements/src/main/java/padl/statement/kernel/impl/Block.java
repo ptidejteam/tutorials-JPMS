@@ -11,6 +11,7 @@
 package padl.statement.kernel.impl;
 
 import java.util.Iterator;
+
 import padl.kernel.IConstituent;
 import padl.kernel.IStatement;
 import padl.kernel.impl.AbstractGenericContainerOfConstituents;

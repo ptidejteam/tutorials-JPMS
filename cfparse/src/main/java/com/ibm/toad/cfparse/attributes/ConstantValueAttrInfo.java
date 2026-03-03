@@ -1,10 +1,11 @@
 package com.ibm.toad.cfparse.attributes;
 
-import com.ibm.toad.cfparse.ConstantPool;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.util.BitSet;
+
+import com.ibm.toad.cfparse.ConstantPool;
 
 /**
  * ConstantValueAttrInfo

@@ -11,6 +11,7 @@
 package padl.kernel.impl;
 
 import java.util.Iterator;
+
 import padl.kernel.IConstituent;
 import padl.kernel.IMethod;
 import padl.kernel.ISetter;

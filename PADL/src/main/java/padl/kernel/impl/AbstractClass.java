@@ -14,13 +14,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
+
+import com.ibm.toad.cfparse.utils.Access;
+
 import padl.kernel.IClass;
 import padl.kernel.IFirstClassEntity;
 import padl.kernel.IInterfaceActor;
 import padl.kernel.IInterfaceImplementer;
 import padl.kernel.exception.ModelDeclarationException;
 import util.multilingual.MultilingualManager;
-import com.ibm.toad.cfparse.utils.Access;
 
 class AbstractClass extends FirstClassEntity {
 	private static final long serialVersionUID = 5923727557416846348L;

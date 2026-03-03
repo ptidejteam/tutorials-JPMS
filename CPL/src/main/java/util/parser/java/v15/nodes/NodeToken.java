@@ -14,7 +14,9 @@
 
 package util.parser.java.v15.nodes;
 
-import java.util.*;
+import java.util.Enumeration;
+import java.util.NoSuchElementException;
+import java.util.Vector;
 /**
  * Represents a single token in the grammar.  If the "-tk" option
  * is used, also contains a Vector of preceding special tokens.

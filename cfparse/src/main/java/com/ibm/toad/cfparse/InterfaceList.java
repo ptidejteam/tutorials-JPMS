@@ -1,10 +1,11 @@
 package com.ibm.toad.cfparse;
 
-import com.ibm.toad.cfparse.utils.CPUtils;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.util.BitSet;
+
+import com.ibm.toad.cfparse.utils.CPUtils;
 
 public final class InterfaceList {
    private ConstantPool d_cp;

@@ -4,7 +4,6 @@ import com.ibm.toad.cfparse.ConstantPool;
 import com.ibm.toad.cfparse.utils.ByteArray;
 import com.ibm.toad.cfparse.utils.CPUtils;
 import com.ibm.toad.cfparse.utils.InstrUtils;
-import com.ibm.toad.utils.D;
 
 final class MipsInstruction implements BaseInstruction {
    private int d_opCode;

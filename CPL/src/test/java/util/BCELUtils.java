@@ -5,10 +5,7 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.util.Arrays;
 
-import org.apache.bcel.classfile.Attribute;
-import org.apache.bcel.classfile.LocalVariableTypeTable;
 import org.apache.bcel.classfile.Method;
-import org.apache.bcel.classfile.StackMapEntry;
 //Henrique code 4/18/2025
 //PS: Is working, but this is what we want to do? Just made this class to make all the tests pass
 //Change very few code of them 

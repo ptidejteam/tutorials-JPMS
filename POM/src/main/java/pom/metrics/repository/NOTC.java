@@ -19,6 +19,7 @@
 package pom.metrics.repository;
 
 import java.util.Iterator;
+
 import padl.kernel.IAbstractModel;
 import padl.kernel.IClass;
 import padl.kernel.IFirstClassEntity;

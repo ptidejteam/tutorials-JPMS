@@ -11,6 +11,7 @@
 package padl.kernel;
 
 import java.io.Serializable;
+
 import padl.visitor.IVisitor;
 
 /**

@@ -12,6 +12,7 @@ package padl.util;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+
 import padl.kernel.IConstituent;
 import padl.kernel.IFilter;
 

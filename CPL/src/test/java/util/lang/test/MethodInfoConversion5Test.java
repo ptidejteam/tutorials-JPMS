@@ -3,7 +3,6 @@ package util.lang.test;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.Arrays;
 
 import org.apache.bcel.classfile.ClassParser;
 import org.apache.bcel.classfile.JavaClass;
@@ -15,7 +14,6 @@ import com.ibm.toad.cfparse.MethodInfo;
 import com.ibm.toad.cfparse.MethodInfoList;
 
 import junit.framework.TestCase;
-import util.BCELUtils;
 
 /**
  * @author Laurent Voisard

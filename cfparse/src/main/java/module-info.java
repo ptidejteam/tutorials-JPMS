@@ -5,5 +5,5 @@ module com.ibm.toad.cfparse {
 	exports com.ibm.toad.utils;
 	exports com.ibm.toad.cfparse.utils;
 
-	requires org.apache.bcel;
+	requires transitive org.apache.bcel;
 }

@@ -2,15 +2,11 @@ package util.lang.test;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
-import java.util.List;
 
 import org.apache.bcel.classfile.ClassParser;
 import org.junit.Assert;
 
 import com.ibm.toad.cfparse.ClassFile;
-import com.ibm.toad.cfparse.attributes.CodeAttrInfo;
 
 import junit.framework.TestCase;
 import util.lang.CFParseBCELConvertorAdhoc;

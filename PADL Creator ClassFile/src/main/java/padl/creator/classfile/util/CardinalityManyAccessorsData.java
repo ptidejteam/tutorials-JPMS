@@ -10,11 +10,12 @@
  ******************************************************************************/
 package padl.creator.classfile.util;
 
+import com.ibm.toad.cfparse.utils.Access;
+
 import padl.kernel.Constants;
 import padl.kernel.ICodeLevelModel;
 import padl.kernel.IFirstClassEntity;
 import padl.util.Util;
-import com.ibm.toad.cfparse.utils.Access;
 
 /**
  * @author Yann-Gaël Guéhéneuc

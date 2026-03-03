@@ -2,8 +2,6 @@ package util.lang.test;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
 
 import org.apache.bcel.classfile.ClassParser;
 import org.junit.Assert;

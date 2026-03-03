@@ -18,13 +18,16 @@ import java.io.InputStream;
 import java.util.Enumeration;
 import java.util.jar.JarFile;
 import java.util.zip.ZipEntry;
+
 import javax.swing.JFileChooser;
+
 import org.apache.bcel.Repository;
 import org.apache.bcel.classfile.ClassFormatException;
 import org.apache.bcel.classfile.ClassParser;
 import org.apache.bcel.classfile.JavaClass;
 import org.apache.bcel.util.ClassPath;
 import org.apache.bcel.util.SyntheticRepository;
+
 import padl.analysis.IAnalysis;
 import padl.analysis.UnsupportedSourceModelException;
 import padl.analysis.repository.modelannotatorloc.BCEL2PADLAdaptor;

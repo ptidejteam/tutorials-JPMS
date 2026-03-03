@@ -10,9 +10,9 @@
  ******************************************************************************/
 package padl.creator.classfile.util;
 
-import padl.kernel.Constants;
-
 import com.ibm.toad.cfparse.utils.Access;
+
+import padl.kernel.Constants;
 
 /**
  * @author Yann-Gaël Guéhéneuc

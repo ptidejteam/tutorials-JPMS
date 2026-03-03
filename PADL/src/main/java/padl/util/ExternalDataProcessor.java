@@ -13,6 +13,7 @@ package padl.util;
 import java.util.Iterator;
 import java.util.Properties;
 import java.util.StringTokenizer;
+
 import padl.kernel.IAbstractModel;
 import padl.kernel.IAggregation;
 import padl.kernel.IAssociation;

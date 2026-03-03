@@ -18,6 +18,7 @@ package padl.kernel.impl;
  */
 
 import org.apache.commons.lang3.ArrayUtils;
+
 import padl.kernel.Constants;
 import padl.kernel.IElement;
 import padl.kernel.exception.ModelDeclarationException;

@@ -11,7 +11,9 @@
 package padl.test.clone;
 
 import java.util.Iterator;
+
 import org.junit.Assert;
+
 import junit.framework.TestCase;
 import padl.analysis.UnsupportedSourceModelException;
 import padl.analysis.repository.AACRelationshipsAnalysis;

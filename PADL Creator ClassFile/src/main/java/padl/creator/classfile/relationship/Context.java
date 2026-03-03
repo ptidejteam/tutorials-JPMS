@@ -12,6 +12,11 @@ package padl.creator.classfile.relationship;
 
 import java.util.List;
 import java.util.Map;
+
+import com.ibm.toad.cfparse.ConstantPool;
+import com.ibm.toad.cfparse.attributes.AttrInfoList;
+import com.ibm.toad.cfparse.attributes.CodeAttrInfo;
+
 import padl.creator.classfile.util.ExtendedMethodInfo;
 import padl.creator.classfile.util.ExtendedMethodInvocation;
 import padl.creator.classfile.util.Utils;
@@ -21,9 +26,6 @@ import padl.kernel.Constants;
 import padl.kernel.IAbstractLevelModel;
 import padl.kernel.IFirstClassEntity;
 import padl.kernel.IOperation;
-import com.ibm.toad.cfparse.ConstantPool;
-import com.ibm.toad.cfparse.attributes.AttrInfoList;
-import com.ibm.toad.cfparse.attributes.CodeAttrInfo;
 
 /**
  * @version	0.1

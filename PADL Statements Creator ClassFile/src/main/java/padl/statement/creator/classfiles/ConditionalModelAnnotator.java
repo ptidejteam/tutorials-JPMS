@@ -18,9 +18,11 @@ import java.io.InputStream;
 import java.util.Enumeration;
 import java.util.jar.JarFile;
 import java.util.zip.ZipEntry;
+
 import org.apache.bcel.classfile.ClassFormatException;
 import org.apache.bcel.classfile.ClassParser;
 import org.apache.bcel.classfile.JavaClass;
+
 import padl.analysis.IAnalysis;
 import padl.analysis.UnsupportedSourceModelException;
 import padl.kernel.IAbstractModel;

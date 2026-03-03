@@ -13,7 +13,9 @@ package pom.test.classfile.general;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+
 import org.junit.Assert;
+
 import junit.framework.TestCase;
 import pom.operators.Operators;
 

@@ -13,7 +13,9 @@ package padl.test.helper;
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;
 import java.util.Stack;
+
 import org.junit.Assert;
+
 import padl.kernel.IAbstractModel;
 import padl.kernel.IAggregation;
 import padl.kernel.IAssociation;

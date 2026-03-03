@@ -12,9 +12,12 @@ package padl.creator.classfile.util;
 
 import java.util.Map;
 import java.util.StringTokenizer;
+
 import org.apache.commons.lang3.ArrayUtils;
+
 import com.ibm.toad.cfparse.ClassFile;
 import com.ibm.toad.cfparse.utils.Access;
+
 import padl.kernel.IAbstractLevelModel;
 import padl.kernel.IFirstClassEntity;
 import padl.kernel.IPackage;
@@ -265,8 +268,8 @@ public class Utils {
 	 */
 	public static boolean isSyntheticBridgeMethod(
 			final ExtendedMethodInfo extendedMethod) {
-		final int bitMaskSyntheticBridge = java.lang.classfile.ClassFile.ACC_BRIDGE
-				| java.lang.classfile.ClassFile.ACC_SYNTHETIC;
+		final int bitMaskSyntheticBridge = Access.ACC_BRIDGE
+				| Access.ACC_SYNTHETIC;
 		return ((extendedMethod.getVisibility()
 				& bitMaskSyntheticBridge) == bitMaskSyntheticBridge);
 	}

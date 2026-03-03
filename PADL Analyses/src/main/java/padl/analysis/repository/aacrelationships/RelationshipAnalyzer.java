@@ -11,6 +11,7 @@
 package padl.analysis.repository.aacrelationships;
 
 import java.util.Iterator;
+
 import padl.kernel.IAbstractModel;
 import padl.kernel.IElement;
 import padl.kernel.IFirstClassEntity;

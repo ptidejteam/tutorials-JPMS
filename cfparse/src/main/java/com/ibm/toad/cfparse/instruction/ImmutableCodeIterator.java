@@ -1,10 +1,11 @@
 package com.ibm.toad.cfparse.instruction;
 
-import com.ibm.toad.cfparse.attributes.CodeAttrInfo;
 import java.util.Enumeration;
 import java.util.ListIterator;
 import java.util.NoSuchElementException;
 import java.util.Vector;
+
+import com.ibm.toad.cfparse.attributes.CodeAttrInfo;
 
 public class ImmutableCodeIterator implements Enumeration, ListIterator {
    private int d_curInst;

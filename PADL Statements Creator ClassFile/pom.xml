@@ -21,6 +21,7 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.13.0</version>
 				<configuration>
+					<release>25</release>
 					<compilerArgs>
 						<arg>-proc:none</arg>
 					</compilerArgs>

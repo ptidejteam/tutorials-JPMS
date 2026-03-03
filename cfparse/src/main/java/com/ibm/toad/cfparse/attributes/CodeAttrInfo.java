@@ -1,5 +1,11 @@
 package com.ibm.toad.cfparse.attributes;
 
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.util.BitSet;
+import java.util.Vector;
+
 import com.ibm.toad.cfparse.ConstantPool;
 import com.ibm.toad.cfparse.instruction.BaseInstruction;
 import com.ibm.toad.cfparse.instruction.CodeViewer;
@@ -10,13 +16,7 @@ import com.ibm.toad.cfparse.instruction.MutableCodeSegment;
 import com.ibm.toad.cfparse.instruction.TagFactory;
 import com.ibm.toad.cfparse.utils.ByteArray;
 import com.ibm.toad.cfparse.utils.CPUtils;
-import com.ibm.toad.utils.D;
 import com.ibm.toad.utils.HexDump;
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
-import java.io.IOException;
-import java.util.BitSet;
-import java.util.Vector;
 
 public final class CodeAttrInfo extends AttrInfo {
    private int d_maxStack;

@@ -11,7 +11,9 @@
 package padl.creator.classfile.test.example;
 
 import java.util.Iterator;
+
 import org.junit.Assert;
+
 import padl.analysis.UnsupportedSourceModelException;
 import padl.analysis.repository.AACRelationshipsAnalysis;
 import padl.creator.classfile.CompleteClassFileCreator;
