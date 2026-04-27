@@ -13,4 +13,8 @@ module CPL {
 	exports util.awt;
 	exports util.help;
 	exports util.lang;
+	exports util.io;
+	exports util.repository;
+	exports util.repository.impl;
+	exports util.multilingual;
 }
