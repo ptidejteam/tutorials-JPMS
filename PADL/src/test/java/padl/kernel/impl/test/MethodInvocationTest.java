@@ -8,7 +8,7 @@
  * Contributors:
  *     Yann-Gaël Guéhéneuc and others, see in file; API and its implementation
  ******************************************************************************/
-package padl.kernel.impl;
+package padl.kernel.impl.test;
 
 import java.util.HashSet;
 
@@ -17,6 +17,8 @@ import com.ibm.toad.cfparse.utils.Access;
 import junit.framework.TestCase;
 import padl.kernel.IFirstClassEntity;
 import padl.kernel.IMethodInvocation;
+import padl.kernel.impl.FirstClassEntity;
+import padl.kernel.impl.MethodInvocation;
 
 /**
  * Tests contract for a MethodInvocation.

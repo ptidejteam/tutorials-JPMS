@@ -12,6 +12,7 @@
 
 	<modules>
 		<module>cfparse</module>
+		<module>PADL Design Motifs </module>
 		<module>CPL</module>
 		<module>PADL</module>
 		<module>PADL Analyses</module>

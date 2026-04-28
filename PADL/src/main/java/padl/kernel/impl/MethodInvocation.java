@@ -29,7 +29,7 @@ import padl.path.IConstants;
  * @author 	Yann-Gal Guhneuc
  * @since	2002/08/19
  */
-class MethodInvocation extends Constituent implements IMethodInvocation {
+public class MethodInvocation extends Constituent implements IMethodInvocation {
 	private class NonConcurrentIterator implements Iterator, Serializable {
 		private static final long serialVersionUID = 1209788683542287364L;
 

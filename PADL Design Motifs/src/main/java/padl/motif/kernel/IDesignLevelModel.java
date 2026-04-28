@@ -8,26 +8,17 @@
  * Contributors:
  *     Yann-Gaël Guéhéneuc and others, see in file; API and its implementation
  ******************************************************************************/
-package padl.test;
+package padl.motif.kernel;
 
-import junit.framework.TestSuite;
-import padl.kernel.impl.test.AbstractContainerTest;
-import padl.kernel.impl.test.MethodInvocationTest;
-import padl.test.defaultpackage.DefaultPackageTest;
+import padl.kernel.IAbstractLevelModel;
+import padl.kernel.exception.CreationException;
+import padl.motif.IDesignMotifModel;
 
 /**
  * @author Yann-Gaël Guéhéneuc
- * @since 2004/01/25
  */
-public final class TestPADL extends TestSuite {
-	public static TestSuite suite() {
-		final TestPADL suite = new TestPADL();
-		suite.setName(TestPADL.class.getName());
-
-		suite.addTestSuite(AbstractContainerTest.class);
-		suite.addTestSuite(MethodInvocationTest.class);
-		suite.addTestSuite(DefaultPackageTest.class); // Added by Mathieu Lemoine, 2009-05-15
-
-		return suite;
-	}
+public interface IDesignLevelModel extends IAbstractLevelModel {
+	void addConstituent(final IDesignMotifModel aPatternModel);
+	void create(final IDesignLevelModelCreator aDesignLevelModelCreator)
+			throws CreationException;
 }

@@ -1,15 +1,5 @@
-module PADL {
-	
-	exports padl.util.adapter;
-	exports padl.path;
-	exports padl.kernel;
-	exports padl.kernel.impl;
-	exports padl.visitor.repository;
-	exports padl.kernel.exception;
-	exports padl.util;
-	exports padl.event;
-	exports padl.visitor;
-
+open module PADL_Creator_ClassFile.test {
+	requires PADL_Creator_ClassFile;
 	requires CPL;
 	requires java.desktop;
 	requires org.apache.commons.lang3;
@@ -18,6 +8,12 @@ module PADL {
 	requires org.apache.logging.log4j;
 	requires org.apache.commons.io;
 	requires org.apache.bcel;
-
 	requires com.ibm.toad.cfparse;
+
+	requires PADL;
+	requires junit;
+	
+	exports padl.creator.classfile.test;
+	exports padl.creator.classfile.helper;
+	// opens padl.creator.classfile.test;
 }

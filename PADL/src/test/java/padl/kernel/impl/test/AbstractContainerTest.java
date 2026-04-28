@@ -8,7 +8,7 @@
  * Contributors:
  *     Yann-Gaël Guéhéneuc and others, see in file; API and its implementation
  ******************************************************************************/
-package padl.kernel.impl;
+package padl.kernel.impl.test;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
@@ -22,6 +22,10 @@ import junit.framework.TestCase;
 import padl.kernel.IConstituent;
 import padl.kernel.IMethodInvocation;
 import padl.kernel.exception.ModelDeclarationException;
+import padl.kernel.impl.Class;
+import padl.kernel.impl.FirstClassEntity;
+import padl.kernel.impl.Method;
+import padl.kernel.impl.MethodInvocation;
 import padl.test.helper.Reflector;
 
 /**
