@@ -99,7 +99,7 @@ public final class TestPADLAnalyses extends junit.framework.TestSuite {
 		suite.addTestSuite(UseRelationship_CLASS_CLASS_3_Test.class);
 
 		suite.addTestSuite(InnerClassesTest.class);
-		//suite.addTestSuite(MemberClassesTest.class);
+		suite.addTestSuite(MemberClassesTest.class);
 		suite.addTestSuite(MemberClasses2Test.class);
 		suite.addTestSuite(MemberClasses3Test.class);
 		suite.addTestSuite(MemberClasses4Test.class);
