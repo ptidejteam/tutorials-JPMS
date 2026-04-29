@@ -1,4 +1,4 @@
-open module PADL_Analyses.test {
+module PADL_Analyses.test {
 	requires PADL_Creator_ClassFile;
 	requires PADL_Analyses;
 	requires CPL;
@@ -11,6 +11,8 @@ open module PADL_Analyses.test {
 	requires PADL_Creator_ClassFile.test;
 	requires PADL.test;
 	
-	requires junit;	
+	//requires com.ibm.toad.cfparse.utils;
+	
+	requires static junit;
 	
 }
