@@ -1,7 +1,6 @@
-open module PADL_Creator_ClassFile.test {
+module PADL_Creator_ClassFile.test {
 	requires PADL_Creator_ClassFile;
 	requires CPL;
-	requires java.desktop;
 	requires org.apache.commons.lang3;
 	requires java.base;
 	requires java.xml;

@@ -36,7 +36,6 @@
 						<!-- Excluded on purpose -->
 						<exclude>**/*Test.java</exclude>
 					</excludes>
-					<redirectTestOutputToFile>true</redirectTestOutputToFile>
 				</configuration>
 			</plugin>
 			<!-- Must generate the test-jar for dependent tests -->
