@@ -39,7 +39,7 @@ import util.io.ProxyDisk;
 public final class VariousSmellsTest extends TestCase {
 	private static IIdiomLevelModel IdiomLevelModel;
 	//	private static ModelAnnotatorLOC Annotator;
-	private static final String PATH = "../SAD/target/test-classes/Xercesv1.0.1.jar";
+	private static final String PATH = "../SAD/target/test-classes/data/Xercesv1.0.1.jar";
 	private static final String MAIN_PATH = "../SAD/target/test-classes/";
 	private static String SYSTEM_NAME = VariousSmellsTest.PATH
 			.substring(VariousSmellsTest.MAIN_PATH.length());

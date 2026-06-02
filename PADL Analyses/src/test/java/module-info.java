@@ -4,15 +4,11 @@ module PADL_Analyses.test {
 	requires CPL;
 	requires PADL;
 	requires PADL_Design_Motifs;
-	requires com.ibm.toad.cfparse;
+	requires CFParse;
 	requires java.desktop;
 	requires java.sql;
 	requires org.apache.bcel;
 	requires PADL_Creator_ClassFile.test;
-	requires PADL.test;
-	
-	//requires com.ibm.toad.cfparse.utils;
-	
-	requires static junit;
-	
+
+	requires junit;	
 }

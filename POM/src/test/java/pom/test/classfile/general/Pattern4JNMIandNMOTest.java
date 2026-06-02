@@ -27,7 +27,7 @@ import pom.metrics.MetricsRepository;
 public final class Pattern4JNMIandNMOTest extends TestCase {
 	private static MetricsRepository MetricsRepository;
 	private static ICodeLevelModel Model = null;
-	private static final String ROOT = "../POM/target/test-classes/pattern4.jar";
+	private static final String ROOT = "../POM/target/test-classes/data/pattern4.jar";
 
 	public Pattern4JNMIandNMOTest(final String aName) {
 		super(aName);

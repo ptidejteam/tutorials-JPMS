@@ -34,7 +34,7 @@ public class MetricRepositoryTest extends TestCase {
 	}
 
 	private static ICodeLevelModel Model = null;
-	private static final String Root = "../POM/target/test-classes/java.lang.jar";
+	private static final String Root = "../POM/target/test-classes/data/java.lang.jar";
 	private static MetricsRepository Metrics;
 
 	protected void setUp() throws Exception {

@@ -1,6 +1,5 @@
-open module PADL.test {
+module PADL.test {
 	requires PADL;
-	
 	requires CPL;
 	requires java.desktop;
 	requires org.apache.commons.lang3;
@@ -9,10 +8,6 @@ open module PADL.test {
 	requires org.apache.logging.log4j;
 	requires org.apache.commons.io;
 	requires org.apache.bcel;
-
-	requires com.ibm.toad.cfparse;
-	
+	requires CFParse;
 	requires junit;
-	
-	exports padl.test.helper;
 }

@@ -34,7 +34,7 @@ import pom.primitives.ClassPrimitives;
  */
 public final class ClassPrimitivesTest extends TestCase {
 	// Main path.
-	private static final String ROOT = "../POM/target/test-classes/";
+	private static final String ROOT = "../POM/target/test-classes/data/";
 
 	// Jar files to load.
 	private static final String[] JAR_FILES = { "java.lang" };

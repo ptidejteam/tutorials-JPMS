@@ -1,4 +1,4 @@
-module com.ibm.toad.cfparse {
+module CFParse {
 	exports com.ibm.toad.cfparse;
 	exports com.ibm.toad.cfparse.attributes;
 	exports com.ibm.toad.cfparse.instruction;
@@ -7,3 +7,5 @@ module com.ibm.toad.cfparse {
 
 	requires transitive org.apache.bcel;
 }
+
+//module com.ibm.toad.cfparse

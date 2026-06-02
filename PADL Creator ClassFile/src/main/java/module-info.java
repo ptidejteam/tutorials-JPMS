@@ -12,6 +12,6 @@ open module PADL_Creator_ClassFile {
 	requires org.apache.logging.log4j;
 	requires org.apache.commons.io;
 	requires org.apache.bcel;
-	requires com.ibm.toad.cfparse;
+	requires CFParse;
 	requires PADL;
 }

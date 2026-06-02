@@ -12,7 +12,7 @@ module PADL_Design_Motifs {
 
 	requires CPL;
 	requires PADL;
-	requires com.ibm.toad.cfparse;
+	requires CFParse;
 	requires java.desktop;
 	requires org.apache.commons.lang3;
 }

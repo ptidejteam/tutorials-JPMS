@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+    <libraryInfo home="/opt/homebrew/Cellar/openjdk@17/17.0.17/libexec/openjdk.jdk/Contents/Home" version="17.0.17"/>
+    <libraryInfo home="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home" version="21.0.9"/>
+    <libraryInfo home="/Library/Java/JavaVirtualMachines/jdk-26.jdk/Contents/Home" version="26.0.1"/>
+    <libraryInfo home="/Library/Java/JavaVirtualMachines/jdk-25.jdk/Contents/Home" version="25.0.1"/>
+    <libraryInfo home="/opt/homebrew/Cellar/openjdk@25/25.0.3/libexec/openjdk.jdk/Contents/Home" version="25.0.3"/>
+    <libraryInfo home="/Users/taherebijani/.sdkman/candidates/java/25-open" version="25"/>
+    <libraryInfo home="/Users/taherebijani/.sdkman/candidates/java/26.0.1-open" version="26.0.1"/>
+</libraryInfos>

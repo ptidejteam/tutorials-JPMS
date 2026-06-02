@@ -28,7 +28,7 @@ public class UnaryMetricsTest extends TestCase {
 	private static IFirstClassEntity firstClassEntity;
 	private static MetricsRepository metrics;
 	private static ICodeLevelModel model = null;
-	private static final String root = "../POM/target/test-classes/java.lang.jar";
+	private static final String root = "../POM/target/test-classes/data/java.lang.jar";
 
 	public UnaryMetricsTest(final String aName) {
 		super(aName);

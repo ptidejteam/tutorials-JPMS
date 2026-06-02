@@ -7,12 +7,12 @@ module PADL_Creator_ClassFile.test {
 	requires org.apache.logging.log4j;
 	requires org.apache.commons.io;
 	requires org.apache.bcel;
-	requires com.ibm.toad.cfparse;
+	requires CFParse;
 
 	requires PADL;
 	requires junit;
 	
-	exports padl.creator.classfile.test;
+	exports padl.creator.classfile.test; // TODO Rework the tests so that these exports can be removed...
 	exports padl.creator.classfile.helper;
 	// opens padl.creator.classfile.test;
 }

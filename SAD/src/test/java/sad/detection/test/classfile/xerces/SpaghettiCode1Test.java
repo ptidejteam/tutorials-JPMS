@@ -31,7 +31,7 @@ import util.io.ProxyDisk;
 public final class SpaghettiCode1Test extends TestCase {
 	private static IIdiomLevelModel IdiomLevelModel;
 	private static final String NAME = "Xercesv2.7.0.jar";
-	private static final String PATH = "../SAD/target/test-classes/Xercesv2.7.0.jar";
+	private static final String PATH = "../SAD/target/test-classes/data/Xercesv2.7.0.jar";
 
 	public SpaghettiCode1Test(final String name) {
 		super(name);

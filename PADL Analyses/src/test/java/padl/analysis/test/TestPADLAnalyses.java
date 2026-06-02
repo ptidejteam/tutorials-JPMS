@@ -119,9 +119,6 @@ public final class TestPADLAnalyses extends junit.framework.TestSuite {
 		suite.addTestSuite(CopyInTest.class);
 		suite.addTestSuite(RemoveTest.class);
 
-		// TODO Add this test back
-		//	suite.addTestSuite(ListenersTest.class);
-
 		suite.addTestSuite(padl.test.path.SanityTest.class);
 
 		suite.addTestSuite(ConstituentRemoveTest.class);

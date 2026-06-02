@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dirs>
+    <entry loc="/opt/homebrew/Cellar/openjdk@17/17.0.17/libexec/openjdk.jdk/Contents/Home" stamp="1760341684000"/>
+    <entry loc="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home" stamp="1761308755889"/>
+    <entry loc="/Library/Java/JavaVirtualMachines/jdk-26.jdk/Contents/Home" stamp="1779042594402"/>
+    <entry loc="/Library/Java/JavaVirtualMachines/jdk-25.jdk/Contents/Home" stamp="1761308717731"/>
+    <entry loc="/opt/homebrew/Cellar/openjdk@25/25.0.3/libexec/openjdk.jdk/Contents/Home" stamp="1776452893000"/>
+    <entry loc="/Users/taherebijani/.sdkman/candidates/java/25-open" stamp="1755031585000"/>
+    <entry loc="/Users/taherebijani/.sdkman/candidates/java/26.0.1-open" stamp="1773176779000"/>
+</dirs>

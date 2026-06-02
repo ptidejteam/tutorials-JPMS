@@ -14,7 +14,7 @@ public class SmellDetectionExample {
 
 	public static void main(final String[] args) {
 		final IIdiomLevelModel model = ModelGenerator.generateModelFromJAR(
-				"../SAD/src/test/resources/Xercesv1.0.1.jar");
+				"../SAD/src/test/resources/data/Xercesv1.0.1.jar");
 		final StringWriter outputString = new StringWriter();
 		final PrintWriter outputWriter = new PrintWriter(outputString);
 

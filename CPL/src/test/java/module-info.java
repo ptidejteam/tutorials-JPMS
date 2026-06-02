@@ -6,7 +6,7 @@ module CPL.test {
 	requires org.apache.commons.io;
 	requires org.apache.bcel;
 
-	requires com.ibm.toad.cfparse;
+	requires CFParse;
 
 	requires junit;
 	

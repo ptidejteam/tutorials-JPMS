@@ -37,7 +37,7 @@ import pom.metrics.MetricsRepository;
  * 
  */
 public final class JDK10LoadTest extends TestCase {
-	private static String root = "../POM/target/test-classes/jdk102.jar";
+	private static String root = "../POM/target/test-classes/data/jdk102.jar";
 
 	public JDK10LoadTest(String aName) {
 		super(aName);

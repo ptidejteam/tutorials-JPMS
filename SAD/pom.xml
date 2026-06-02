@@ -74,11 +74,27 @@
 			<version>1.0.0</version>
 		</dependency>
 
+		<!-- TODO Why is this dependency not mandatory for the module-info.java file and its "requires com.ibm.toad.cfparse;"?-->
+		<!-- 
+		<dependency>
+			<groupId>com.ibm.toad</groupId>
+			<artifactId>cfparse</artifactId>
+			<version>2.0</version>
+		</dependency>
+		-->
+
 		<!-- Test dependencies -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.13.2</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>net.ptidej.padl</groupId>
+			<artifactId>padl-generator-wip</artifactId>
+			<version>1.0.0</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -104,18 +120,13 @@
 			java.lang.NoSuchMethodError: 'org.eclipse.core.runtime.SubMonitor
 		org.eclipse.core.runtime.SubMonitor.split(int)' 
 		-->
+		<!--
 		<dependency>
 			<groupId>net.ptidej.padl</groupId>
 			<artifactId>padl-creator-javafile-eclipse</artifactId>
 			<version>1.0.0</version>
 			<scope>test</scope>
 		</dependency>
-
-		<dependency>
-			<groupId>net.ptidej.padl</groupId>
-			<artifactId>padl-generator</artifactId>
-			<version>1.0.0</version>
-			<scope>test</scope>
-		</dependency>
+		-->
 	</dependencies>
 </project>
