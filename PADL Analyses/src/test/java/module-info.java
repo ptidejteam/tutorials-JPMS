@@ -1,4 +1,5 @@
 module PADL_Analyses.test {
+	
 	requires PADL_Creator_ClassFile;
 	requires PADL_Analyses;
 	requires CPL;
@@ -7,8 +8,7 @@ module PADL_Analyses.test {
 	requires CFParse;
 	requires java.desktop;
 	requires java.sql;
-	requires org.apache.bcel;
+	//requires org.apache.bcel;
 	requires PADL_Creator_ClassFile.test;
-
 	requires junit;	
 }

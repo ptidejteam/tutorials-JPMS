@@ -1,4 +1,4 @@
-package padl.generator.helper.JEE;
+package padl.generator.helper.test.JEE;
 
 import org.junit.Assert;
 

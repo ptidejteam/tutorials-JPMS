@@ -2,11 +2,9 @@ module SAD {
 	requires CPL;
 	requires PADL;
 	requires POM;
-
-	// requires PADL_Statements;
 	requires CFParse;
-	// requires org.apache.commons.lang3; 
 
+	
 	exports sad.designsmell.detection.repository.Blob;
 	exports sad.codesmell.property.impl;
 	//exports sad.detection.test.javafile.ideasimsyn;

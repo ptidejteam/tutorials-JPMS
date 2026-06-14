@@ -24,7 +24,7 @@
  * Aminata : I just modified the concatenation of strings by using StringBuffer 
  * I added also a method log to handle log information and reduce the number of instructions for that in the methods
  */
-package padl.generator.helper.utils;
+package padl.generator.helper.test.utils;
 
 import java.io.BufferedInputStream;
 import java.io.File;

@@ -1,4 +1,11 @@
 module PADL_Design_Motifs {
+	
+	requires CPL;
+	requires PADL;
+	requires CFParse;
+	requires java.desktop;
+	requires org.apache.commons.lang3;
+	
 	exports padl.motif.models;
 	exports padl.motif.repository;
 	exports padl.motif;
@@ -10,9 +17,4 @@ module PADL_Design_Motifs {
 	exports padl.motif.kernel;
 	exports padl.motif.kernel.impl;
 
-	requires CPL;
-	requires PADL;
-	requires CFParse;
-	requires java.desktop;
-	requires org.apache.commons.lang3;
 }

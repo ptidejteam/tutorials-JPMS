@@ -8,7 +8,7 @@
  * Contributors:
  *     Yann-Gaël Guéhéneuc and others, see in file; API and its implementation
  ******************************************************************************/
-package padl.generator.helper.utils;
+package padl.generator.helper.test.utils;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

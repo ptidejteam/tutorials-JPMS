@@ -8,7 +8,7 @@
  * Contributors:
  *     Yann-Gaël Guéhéneuc and others, see in file; API and its implementation
  ******************************************************************************/
-package padl.generator.helper;
+package padl.generator.helper.test;
 
 import java.io.IOException;
 import java.io.Writer;
