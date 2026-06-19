@@ -7,7 +7,7 @@
 	<groupId>net.ptidej</groupId>
 	<artifactId>all-ptidej</artifactId>
 	<version>1.0.0</version>
-	<name>Ptidej Tool Suite</name>
+	<name>Mini Ptidej Tool Suite with JPMS</name>
 	<packaging>pom</packaging>
 
 	<modules>

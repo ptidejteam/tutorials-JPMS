@@ -10,11 +10,6 @@ module POM {
 	exports pom.metrics;
 	exports pom.metrics.repository;
 	exports pom.primitives;
-	//exports pom.helper.xml;
-	//exports pom.test;
-	//exports pom.test.classfile.specific;
-	//exports pom.helper;
-	//exports pom.test.classfile.general;
-	//exports pom.test.cppfile.general;
+
 
 }

@@ -6,7 +6,7 @@ module PADL_Analyses {
 	requires CFParse;
 	requires java.desktop;
 	requires java.sql;
-	//requires org.apache.bcel;
+
 	
 	exports padl.analysis;
 	exports padl.analysis.plantUMLGenerator;

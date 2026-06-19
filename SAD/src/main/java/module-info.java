@@ -7,17 +7,14 @@ module SAD {
 	
 	exports sad.designsmell.detection.repository.Blob;
 	exports sad.codesmell.property.impl;
-	//exports sad.detection.test.javafile.ideasimsyn;
 	exports sad.designsmell.detection.repository.LongParameterList;
 	exports sad.designsmell.detection.repository.LargeClass;
 	exports sad.designsmell.detection.repository;
 	exports sad.codesmell.detection.repository.AntiSingleton;
 	exports sad.codesmell.property;
-	//exports sad.detection.test;
 	exports sad.codesmell.detection.repository.ManyFieldAttributesButNotComplex;
 	exports sad.codesmell.detection.repository.TraditionBreaker;
 	exports sad.codesmell.detection.repository.ComplexClass;
-	//exports sad.detection.test.classfile.swt;
 	exports sad.designsmell.detection.repository.SpeculativeGenerality;
 	exports sad.codesmell.detection.repository;
 	exports sad.codesmell.detection.repository.SpeculativeGenerality;
@@ -32,12 +29,10 @@ module SAD {
 	exports sad.codesmell.detection;
 	exports sad.designsmell.detection.repository.SwissArmyKnife;
 	exports sad.codesmell.detection.repository.MessageChains;
-	//exports sad.detection.helper;
 	exports sad.codesmell.detection.repository.ClassDataShouldBePrivate;
 	exports sad.codesmell.detection.repository.BaseClassShouldBeAbstract;
 	exports sad.kernel.impl;
 	exports sad.designsmell.detection.repository.SpaghettiCode;
-	//exports sad.misc;
 	exports sad.designsmell.detection.repository.ManyFieldAttributesButNotComplex;
 	exports sad.codesmell.detection.repository.LongParameterList;
 	exports sad.designsmell.detection.repository.ClassDataShouldBePrivate;
@@ -45,17 +40,13 @@ module SAD {
 	exports sad.codesmell.detection.repository.SpaghettiCode;
 	exports sad.designsmell.detection.repository.LongMethod;
 	exports sad.util;
-	//exports sad.detection.test.comparison.xerces;
 	exports sad.designsmell.detection.repository.BaseClassKnowsDerivedClass;
 	exports sad.codesmell.detection.repository.Blob;
 	exports sad.codesmell.detection.repository.BaseClassKnowsDerivedClass;
-	//exports sad.detection.test.generic;
 	exports sad.codesmell.detection.repository.SwissArmyKnife;
 	exports sad.designsmell.detection.repository.FunctionalDecomposition;
 	exports sad.codesmell.detection.repository.LongMethod;
-	//exports sad.detection.test.classfile.xerces;
 	exports sad.designsmell.detection.repository.TraditionBreaker;
-	//exports sad.detection.helpers.old;
 	exports sad.designsmell.detection.repository.LazyClass;
 	exports sad.codesmell.detection.repository.RefusedParentBequest;
 	exports sad.designsmell.detection.repository.ComplexClass;	

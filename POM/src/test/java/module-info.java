@@ -1,9 +1,9 @@
  module POM.test {
+	 
     requires POM;
     requires CPL;
     requires PADL;
     requires CFParse;
-    //requires java.base;
     requires java.xml;
     requires junit;
 	requires org.apache.commons.lang3;

@@ -6,7 +6,4 @@ module CPL.test {
 	requires org.apache.commons.io;
 	requires CFParse;
 	requires junit;
-	//requires java.xml;
-	//requires org.apache.bcel;
-	// opens cpl.test to junit;
 }

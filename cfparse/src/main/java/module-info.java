@@ -8,5 +8,3 @@ module CFParse {
 	exports com.ibm.toad.utils;
 	exports com.ibm.toad.cfparse.utils;
 }
-
-//module com.ibm.toad.cfparse

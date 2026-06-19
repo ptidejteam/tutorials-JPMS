@@ -5,12 +5,7 @@ module PADL {
 	requires org.apache.commons.lang3;
 	requires org.apache.bcel;
 	requires CFParse;
-	//requires java.base; // Shouldn't be necessary
-	//requires java.xml;
-	//requires org.apache.logging.log4j;
-	//requires org.apache.commons.io;
-	
-	
+		
 	exports padl.util.adapter;
 	exports padl.path;
 	exports padl.kernel;
