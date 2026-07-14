@@ -8,4 +8,8 @@ module PADL.test {
 	requires CFParse;
 	requires junit;
 
+	exports padl.test to junit;
+	exports padl.kernel.impl.test to junit;
+	exports padl.test.defaultpackage to junit;
+	exports padl.test.listeners to junit;
 }

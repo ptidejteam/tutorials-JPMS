@@ -11,6 +11,7 @@
 package padl.kernel.impl.test;
 
 import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Constructor;
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -20,12 +21,12 @@ import com.ibm.toad.cfparse.utils.Access;
 
 import junit.framework.TestCase;
 import padl.kernel.IConstituent;
+import padl.kernel.IFirstClassEntity;
 import padl.kernel.IMethodInvocation;
 import padl.kernel.exception.ModelDeclarationException;
 import padl.kernel.impl.Class;
 import padl.kernel.impl.FirstClassEntity;
 import padl.kernel.impl.Method;
-import padl.kernel.impl.MethodInvocation;
 import padl.test.helper.Reflector;
 
 /**
@@ -37,6 +38,7 @@ import padl.test.helper.Reflector;
 public class AbstractContainerTest extends TestCase {
 	private Class clazz;
 	private java.lang.reflect.Field containerField;
+	private Constructor methodInvocationConstructor;
 	public AbstractContainerTest(final String aName) {
 		super(aName);
 	}
@@ -47,6 +49,13 @@ public class AbstractContainerTest extends TestCase {
 		this.containerField =
 			FirstClassEntity.class.getDeclaredField("container");
 		this.containerField.setAccessible(true);
+		java.lang.Class intClass = int.class;
+		java.lang.Class firstClassEntityClass = IFirstClassEntity.class;
+		this.methodInvocationConstructor = java.lang.Class
+				.forName("padl.kernel.impl.MethodInvocation")
+				.getDeclaredConstructor(intClass, intClass, intClass, firstClassEntityClass);
+		this.methodInvocationConstructor.setAccessible(true);
+
 	}
 	public void testAddEntity() {
 		String m1 = "foo()";
@@ -74,7 +83,7 @@ public class AbstractContainerTest extends TestCase {
 	public void testAddEqualEntity() throws NoSuchFieldException,
 			SecurityException, IllegalArgumentException,
 			IllegalAccessException, NoSuchMethodException,
-			InvocationTargetException {
+			InvocationTargetException, InstantiationException {
 
 		final Method method = new Method("a");
 		final FirstClassEntity firstClassEntity =
@@ -83,21 +92,23 @@ public class AbstractContainerTest extends TestCase {
 					3509108360306890991L;
 			};
 
-		MethodInvocation minvocation =
-			new MethodInvocation(
+		Object minvocation = 
+			this.methodInvocationConstructor.newInstance(
 				IMethodInvocation.CLASS_CLASS,
 				0,
 				Access.ACC_PUBLIC,
 				firstClassEntity);
-		method.addConstituent(minvocation);
+		
+		method.addConstituent((IConstituent) minvocation);
 
 		minvocation =
-			new MethodInvocation(
+			this.methodInvocationConstructor.newInstance(
 				IMethodInvocation.CLASS_CLASS,
 				0,
 				Access.ACC_PUBLIC,
 				firstClassEntity);
-		method.addConstituent(minvocation);
+		
+		method.addConstituent((IConstituent) minvocation);
 
 		Reflector.callMethodOnReflectedField(
 			FirstClassEntity.class,

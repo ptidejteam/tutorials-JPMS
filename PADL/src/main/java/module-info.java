@@ -15,4 +15,6 @@ module PADL {
 	exports padl.util;
 	exports padl.event;
 	exports padl.visitor;
+
+	opens padl.kernel.impl to PADL.test;
 }
