@@ -86,7 +86,7 @@
         <version>3.5.5</version>
         <configuration>
           <forkCount>1</forkCount>
-          <useModulePath>false</useModulePath>
+          <useModulePath>true</useModulePath>
           <reuseForks>false</reuseForks>
           <statelessTestsetReporter implementation="org.apache.maven.plugin.surefire.extensions.junit5.JUnit5Xml30StatelessReporter">
             <disable>false</disable>
